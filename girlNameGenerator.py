@@ -34,7 +34,7 @@ def exampleLogic(names):
        if len(name) % 2 == 1:
            # checks if the middle letter is a 'd'
            if name[len(name)//2] == "d":
-               print(name + " is a possiblity")
+               print(name + " is a possibility")
            else:
                print(name + "'s middle letter isn't a 'D'.")
        else:
